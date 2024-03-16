@@ -20,7 +20,7 @@
                     <div class="ms-img-container ms-1">
                         <a class="navbar-brand" href="#">
                             <img class="img-fluid" src="img/boolean-logo.png" alt="boolean logo">
-                            <span class="h3 fw-bold align-middle">Campo Minato</span>
+                            <span class="h3 fw-bold align-middle d-none d-sm-inline">Minesweeper 💣</span>
                         </a>
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
@@ -30,7 +30,7 @@
                             <option value="Medium">Medium</option>
                             <option value="Hard">Hard</option>
                         </select>
-                        <button class="btn btn-outline-secondary ms-2" type="submit">Play</button>
+                        <button id="play-btn" class="btn btn-outline-secondary ms-2" type="submit">Play</button>
                     </div>
 
                 </div>
@@ -39,9 +39,11 @@
     </header>
     <main class="bg-info-subtle">
         <div class="container">
+            <h3 class="text-center fw-bold d-block d-sm-none pt-3">Minesweeper 💣</h3>
+
             <div class="ms-grid-container d-flex justify-content-center align-items-center">
-                <div id="grid" class="border ms-easy d-flex flex-wrap">
-                    <div class="square border ms-easy d-flex justify-content-center align-items-center">a</div>
+                <div id="grid" class="border d-flex flex-wrap">
+                    <!-- <div class="square border d-flex justify-content-center align-items-center">a</div> -->
 
                 </div>
 
